@@ -1,0 +1,10 @@
+# General rules for all search engines
+User-agent: *
+Allow: /
+
+# Block specific folders if you have them (e.g., draft folders)
+Disallow: /private/
+Disallow: /temp/
+
+# Link to your sitemap (even if you haven't made one yet, this is good practice)
+Sitemap: https://cureoo.com/sitemap.xml
